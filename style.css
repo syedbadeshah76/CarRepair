@@ -1,0 +1,767 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+}
+
+.home-page {
+    /* margin-top: 10px; */
+    background-image: url(car-repair.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.address {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* height: 40px; */
+    font-size: 15px;
+    padding-top: 14px;
+}
+
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+
+}
+
+.contact p {
+    color: orange;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.address p {
+    margin: 0px 12px;
+    /* margin-left: 10px; */
+    transition: .2s ease-in;
+}
+
+.contact button {
+    /* margin-right: 2px; */
+    font-size: 10px;
+    border-radius: 8px;
+    width: 30px;
+    margin-top: 2PX;
+    margin-left: 10PX;
+    height: 20PX;
+    /* color: orange; */
+    background-color: orange ;
+}
+
+.address p:hover {
+    color: orange;
+}
+
+.contact span {
+    /* margin-top: 4PX; */
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    padding : 0 300px;
+    font-family: 'montserrat';
+}
+
+.logo {
+    margin-left: 20px;
+    color: white;
+    font-size: 26px;
+    font-family: 'poppins300';
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0px 20px;
+}
+
+nav li a {
+    color: white;
+    transition: .2s ease-in;
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.contain {
+    position: absolute;
+    /* background-color: blue; */
+    right: 250px;
+    top: 190px;
+    /* left: 5px; */
+}
+
+.contain h1 {
+    color: white;
+    margin-left: 20px;
+    font-family: 'monserrat' sans-serif;
+}
+
+.contain p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 7px;
+    /* background-color: blue; */
+    /* font-family: 'poppins'; */
+
+    margin-right: 40px;
+}
+
+.contain button {
+    font-size: 22px;
+    margin-top: 42px;
+    width: 190px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 2px;
+    transition: .2s linear;
+    /* border: none; */
+}
+
+.contain button:hover {
+    background: transparent;
+    /* opacity: 0.5; */
+    box-shadow: 0 10px 10px rgba(195, 185, 185, 0.8);
+    color: white;
+}
+
+
+.boxes {
+    /* background: rgb(255, 255, 255); */
+    display: flex;
+    width: 100%;
+    height: 190px;
+    justify-content: center;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+    /* background-color: orange; */
+    /* margin-bottom: 160px; */
+    /* margin: 0px; */
+    /* margin-bottom: 3; */
+
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    /* background-color: rgb(255, 77, 0); */
+    background-color: orangered;
+    margin-right: 30px;
+    /* margin-bottom: 100px; */
+    font-size: 12PX;
+    text-align: center;
+    font-family: 'monserrat';
+    transition: .2s ease-in;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 1);
+    transform: translateY(-90px);
+}
+
+.box:hover {
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 1);
+    transform: translateY(-60px);
+}
+
+.box h1 {
+    color: white;
+    margin: 26px 8px;
+    font-weight: bold;
+}
+
+.box button {
+    font-size: 12px;
+    width: 90px;
+    margin-bottom: 20px;
+    height: 36px;
+    color: rgb(0, 0, 0);
+    /* background: transparent; */
+    /* background-color: orange; */
+}
+.box p{
+    color: white;
+}
+
+.box2 {
+    width: 180px;
+    height: 180px;
+    /* background-color: blue; */
+    background-color: rgb(255, 77, 0);
+    margin-right: 30px;
+    font-size: 12PX;
+    text-align: center;
+    font-family: 'monserrat';
+    /* margin-bottom: 20px; */
+    transition: .2s linear;
+}
+
+.box2:hover {
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.2);
+}
+
+.box2 h1 {
+    color: white;
+    margin: 26px 8px;
+}
+
+.box2 p {
+    color: white;
+}
+
+.box3 {
+    width: 180px;
+    height: 180px;
+    /* background-color: blue; */
+    background-color: rgb(255, 77, 0);
+    font-size: 12PX;
+    text-align: center;
+    font-family: 'monserrat';
+    margin-right: 30px;
+    transition: .3s ease-in;
+}
+
+.box3:hover {
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.2);
+}
+
+.box3 h1 {
+    color: white;
+    margin: 26px 17px;
+}
+
+.box3 p {
+    color: white;
+}
+
+.box4 {
+    width: 180px;
+    height: 180px;
+    /* background-color: blue; */
+    margin-right: 30px;
+    background-color: rgb(255, 77, 0);
+    font-size: 12PX;
+    text-align: center;
+    font-family: 'monserrat';
+    transition: .3s ease-in;
+}
+
+.box4:hover {
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.2);
+}
+
+.box4 h1 {
+    color: white;
+    margin: 26px 8px;
+}
+
+.box4 p {
+    color: white;
+}
+
+.section1 {
+    /* background-color: rgb(143, 129, 112); */
+    height: 350px;
+    width: 100%;
+    /* margin: 30px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img1 img {
+    width: 750px;
+    height: 350px;
+    margin-left: 20px;
+
+}
+
+.section1 h1 {
+    position: absolute;
+    left: 1050px;
+    top: 790px;
+    /* margin-left: 30px; */
+    height: 40px;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'poppins';
+    color: orangered;
+    transition: .2s ease-in;
+}
+
+.section1 h1:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.section1 span {
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    position: relative;
+    top: 60px;
+    left: 280px;
+    right: 200px;
+    width: 280px;
+    height: 80px;
+    background-color: blue;
+}
+
+.section1 p {
+    color: black;
+    font-family: 'poppins 300';
+    position: relative;
+    top: 150px;
+    right: 0;
+    text-align: center;
+    height: 140px;
+    /* background-color: blue; */
+}
+
+.section2 {
+    width: 100%;
+    height: 450px;
+}
+
+.container2 {
+    /* background-color: darkgray; */
+    height: 450PX;
+    background-color: hsl(0,0%,90%);
+}
+
+.container2 h1 {
+    font-family: 'poppins';
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container2 h2 {
+    margin-top: 20PX;
+    text-align: center;
+    font-family: 'monseerat';
+}
+
+.SERVICESS {
+    background-color: hsl(0,0%,90%);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    font-size: 16px;
+}
+
+.SERVICESS p {
+    color: black;
+    margin-top: 20PX;
+    margin-left: 25px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+.SERVICESS i {
+    color: rgb(255, 89, 0);
+    font-size: 22PX;
+
+}
+
+.servicess2 p {
+    color: black;
+    margin-top: 18PX;
+    margin-left: 230px;
+    margin-right: 19px;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+.servicess3 p {
+    color: rgb(0, 0, 0);
+    margin-top: 20PX;
+    margin-left: 400px;
+    margin-right: 25px;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+.SERVICE-BTN {
+    text-align: center;
+    font-size: 33px;
+    /* background-color: blue; */
+
+}
+
+.SERVICE-BTN button {
+    margin-bottom: 20px;
+    color: white;
+    /* border-radius: 30px; */
+    width: 150px;
+    background-color: black;
+    height: 30px;
+    transition: .2s ease-in;
+
+
+}
+
+.SERVICE-BTN button:hover {
+    background: transparent;
+    background-color: orangered;
+}
+
+
+.section3 {
+    width: 100%;
+    height: 400px;
+    background-color: hsl(0,0%,100%);
+    margin-bottom: 50px;
+}
+
+.about-container {
+    text-align: center;
+    /* background-color: #d6a3f2; */
+}
+
+
+.about-container p {
+    font-size: 20px;
+    margin-top: 22px;
+    color: rgb(0, 0, 0);
+    font-family: 'monseerat';
+
+
+}
+
+.about-container span {
+    font-size: 30px;
+    /* margin-top: 4px */
+    text-align: center;
+    font-weight: bold;
+    /* color: rgb(0, 0, 0); */
+}
+
+.about-container img {
+    margin-top: 20px;
+    width: 480px;
+    height: 180px;
+}
+
+.passengesss p {
+    margin-top: 60px;
+}
+
+.imagess {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.imagess img {
+    /* margin-top: 60px; */
+    width: 350px;
+    height: 120px;
+    margin: 10px;
+    transition: .3s ease-in;
+
+}
+
+.imagess img:hover {
+    color: orange;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+}
+
+.nothing {
+    width: 100%;
+    height: 80px;
+    /* background-color: rgb(0, 140, 255); */
+}
+
+.nothing p{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'poppins';
+    height: 50px;
+    margin-left: 40px;
+    transition: .2s ease-in;
+    
+}
+.nothing p:hover{
+    color: orangered;
+    font-weight: bold;
+}
+
+/* .nothing p {
+    font-family: 'poppins';
+    color: white;
+    font-weight: 300;
+   margin: 19px 0;
+   width: 100%;
+   height: 50px;
+   text-align: center;
+   margin-top: 70px;
+} */
+
+.business {
+    width: 100px;
+    height: 180px;
+}
+
+.business img {
+    align-items: center;
+    border-radius: 50%;
+    height: 180px;
+    margin-top: 25px;
+    position: relative;
+    left: 650px;
+}
+
+.business1 {
+    width: 50%;
+    font-family: 'monserrat';
+    margin-top: 40px;
+    margin-left: 380px;
+    text-align: center;
+}
+
+.business2 {
+    width: 100px;
+    height: 180px;
+}
+
+.business2 img {
+    align-items: center;
+    border-radius: 50%;
+    height: 180px;
+    position: relative;
+    left: 650px;
+    margin-top: 20px;
+}
+
+.business-p {
+    width: 50%;
+    margin-top: 40px;
+    font-family: 'monserrat';
+    margin-left: 380px;
+    text-align: center;
+}
+
+.business3 {
+    width: 100px;
+    height: 180px;
+}
+
+.business3 img {
+    align-items: center;
+    border-radius: 50%;
+    height: 180px;
+    position: relative;
+    left: 650px;
+    margin-top: 20px;
+}
+
+.business-p2 {
+    width: 50%;
+    font-family: 'monserrat';
+    margin-top: 40px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+.footer1 {
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.about-foot h1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: orangered;
+    transition: .2s ease-in;
+}
+
+.about-foot h1:hover {
+    color: white;
+}
+
+.about-foot p {
+    margin-left: 30px;
+    margin-top: 12px;
+    color: white;
+    transition: .3s ease-in;
+}
+
+.about-foot p:hover {
+    color: orangered;
+}
+
+.news-foot h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: orangered;
+    transition: .3s ease-in;
+}
+
+.news-foot h1:hover {
+    color: white;
+}
+
+.news-foot p {
+    margin-left: 20px;
+    margin-top: 12px;
+    color: white;
+    transition: .3s ease-in;
+}
+
+.news-foot p:hover {
+    color: orangered;
+}
+
+.SERVICES-foot h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: orangered;
+    transition: .3s ease-in;
+}
+
+.SERVICES-foot h1:hover {
+    color: white;
+}
+
+.SERVICES-foot p {
+    margin-left: 20px;
+    margin-top: 12px;
+    color: white;
+    transition: .3s ease-in;
+}
+
+.SERVICES-foot p:hover {
+    color: orangered;
+}
+
+.contact-foot h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: orangered;
+    transition: .3s ease-in;
+}
+
+.contact-foot h1:hover {
+    color: white;
+}
+
+.contact-foot i {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 23px;
+    color: orangered;
+    transition: .3s ease-in;
+}
+
+.contact-foot i:hover {
+    color: white;
+}
+
+.icon {
+    color: white;
+    /* margin-left: 14px; */
+    margin-right: 15px;
+    margin-top: 10px;
+    transition: .3s ease-in;
+}
+
+.icon:hover  {
+    color: orangered;
+}
+
+.rights {
+    width: 100%;
+    height: 60px;
+}
+
+.rights footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media only screen and (max-width:1155px)
+{
+    
+.home-page {
+    /* margin-top: 10px; */
+    background-image: url(car-repair.jpg);
+    width: 110%;
+    height: 70vh;
+}
+.contain{
+    position: relative;
+    top: 20px;
+    left: 935px;
+}
+
+}
+@media only screen and (max-width:1152px)
+{
+    
+.address{
+    width: 110%;
+}
+}
+@media only screen and (max-width:1157px)
+{
+    
+.address {
+    height: 40px;
+    width: 210%;
+}
+.nav-bar{
+    height:30px ;
+    width: 140%;
+}
+}
+
+@media only screen and (max-width:1156px)
+{
+    
+.address {
+    height: 40px;
+    width: 210%;
+}
+.nav-bar{
+    height:30px ;
+    width: 158.2%;
+}
+}
+@media only screen and (max-width:1155px)
+{
+    
+.address {
+    height: 40px;
+    width: 210%;
+}
+.nav-bar{
+    height:30px ;
+    width: 143.5%;
+}
+}
